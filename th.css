@@ -1,0 +1,67 @@
+
+body{
+    background-color: red;
+    align-items: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 254px 254px 254px 255px;
+    grid-template-rows: 150px 150px 150px 150px;
+ background-size: cover;
+ /* align-items: center; */
+ text-align: center;
+ text-align: center;
+ margin-left: 180px;
+ margin-top: 30px;
+  }
+  .grid-item {
+    background: transparent;
+    border:4px solid red;
+    font-size: 10px;
+    text-align: center; 
+    
+  }
+  #grid-item:hover
+  {
+    background-color: darkgray;
+  }
+
+  #main{
+
+background-repeat: no-repeat;
+background-size:auto;
+animation-name: xyz;
+animation-duration: 20s;
+animation-iteration-count:infinite;
+
+
+  }
+ @keyframes xyz{
+  0%{
+background-image: url(6.webp);
+  }
+20%{
+background-image: url(2.webp);
+}
+40%{
+    background-image: url(3.webp);
+}
+60%{
+    background-image: url(4.webp);
+}
+80%{
+    background-image: url(cc.webp);
+}
+100%{
+    background-image: url(1.webp);
+}
+ }
+#text, #text2, #text3, #text4 ,#text5, #text6, #text7, #text8,#text9, #text10, #text11,#text12, #text13, #text14,#text15,#text16{
+    display: none;
+    color:black;
+    font-size: medium;
+    
+}
+
+
+
